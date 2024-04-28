@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/* -------------------------hero section start-------------------------- */
+.hero-text-bottom-sec{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/featured-2.jpg);
+    height: 590px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: end;
+}
+/* ------------------hero-text-bottom-text-section-------------------- */
+.hero-text-bottom-t-section{
+    width: 100%;
+    height: 195px;
+    background-color: orangered;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ------------------hero-text-box-1-------------------- */
+.hero-text-box-1{
+    height: 195px;
+    width: 60%;
+    background-color: orangered;
+}
+.hero-text-box-1-heading{
+    margin: 44px 0 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 1.7rem;
+    width: 100%;
+}
+.hero-text-box-1-para{
+    line-height :1.5em;
+    margin-right: 40px;
+    text-transform: uppercase;
+    line-height: 2;
+    letter-spacing: 0.05em;
+    color: white;
+    text-align: left;
+}
+/* ------------------hero-text-box-2-------------------- */
+.hero-text-box-2{
+    height: 195px;
+    width: 450px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-button{
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    position: absolute;
+    top: 330px;
+}
+.section-main{
+    width: 450px;
+    height: 124px;
+    display: flex;
+}
+.text-box-sec-1{
+    height: 124px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+}
+.slide-raised{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.slide-raised > span{
+    letter-spacing: 0.1em;
+    display: block;
+    font-size: 16px;
+    color: #963E09;
+    margin-top: 30px;
+}
+.slide-raised > strong{
+    font-size: 36px;
+    color: #963E09;
+}
+.slide-raised-1{
+    border-right: 1px solid rgba(0, 0, 0, 0.315);
+}
+.slide-actions-sec-3{
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid rgba(0, 0, 0, 0.315);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #963E09;
+}
+.slide-actions-se > a{
+    text-decoration: none;
+}
+
+/* --------------------------------media quries-------------------------------- */
+@media(max-width: 1124px) {
+    .hero-text-bottom-sec{
+        align-items: center;
+    }
+    .hero-text-box-1{
+        height: 195px;
+        width: 100%;
+    }
+    .hero-text-box-2{
+        height: 195px;
+        width: 100%;
+    }
+    .hero-button{
+        position: absolute;
+        top: 530px;
+    }
+    .text-box-sec-1{
+        height: 124px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        display: inline-block;
+    }
+    .section-main{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 599px) {
+    /* ------------------------hero section----------------------- */
+    .hero-text-bottom-sec{
+        height: 520px;
+    }
+ /* ------------------hero-text-box-1-------------------- */
+.hero-text-box-1-heading{
+    font-size: 1.6rem;
+}
+.hero-text-box-1-para{
+   font-size: 12px;
+   width: 100%;
+}
+.hero-button{
+    position: absolute;
+    top: 320px;
+}
+}
+
+@media only screen and (min-width: 288px) and (max-width: 425px) {
+
+    /* ------------------------hero section----------------------- */
+    .hero-text-bottom-sec{
+        height: 430px;
+        align-items: start;
+    }
+/* ------------------hero-text-box-1-------------------- */
+.hero-text-box-1-heading{
+    font-size: 1.6rem;
+}
+.hero-text-box-1-para{
+   font-size: 12px;
+   width: 100%;
+}
+.hero-text-box-1{
+    height: 240px;
+}
+/* ------------------hero-text-box-2-------------------- */
+.hero-button{
+    position: absolute;
+    top: 580px;
+}
+.slide-raised{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.slide-raised > span{
+    font-size: 16px;
+}
+.slide-raised > strong{
+    font-size: 30px;
+}
+.hero-button{
+    position: absolute;
+    top: 220px;
+}
+}
